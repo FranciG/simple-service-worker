@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Francisco Feather</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<script>
+    // Check that service workers are registered
+    if ('serviceWorker' in navigator) {
+      // Use the window load event to keep the page load performant
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+    </script>
+
+</head>
+<body>
+
+<div class="wrapper">
+  <nav class="main-nav">
+<img class="logo" src="logo.png" alt="">
+    <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="products.html" >Products</a></li>
+
+
+
+    </ul>
+  </nav>
+<div class="hello">Hello
+  
+</div>
+<div class="foto">
+  <img class="oulu" src="liikenne.jpg" alt="">
+</div>
+</body>
+</html>

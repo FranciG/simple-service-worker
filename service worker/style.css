@@ -1,0 +1,101 @@
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(243, 243, 243);
+
+}
+
+body {
+
+    margin: 0px 50px;
+    line-height: 1.4;
+    padding-left: 25px;
+
+
+}
+.hello {
+    background-color: blueviolet;
+}
+
+.foto {
+  border: 2px black;
+}
+.main-nav {
+
+}
+.btn:hover {
+  background-color: blue;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap:20px;
+}
+
+/*navigation*/
+.main-nav img {
+  float:left;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+.main-nav ul {
+  display: flex;
+  float:right;
+  padding: 0;
+  list-style: none;
+  margin-right: 50px;
+
+}
+.btn2 {
+
+    max-width: 160px;
+
+    background-color: rgb(33, 95, 153);
+    color: white;
+    text-decoration: none;
+    border: 0;
+    box-shadow:10px 20px 60px rgb(33, 95, 153);
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+
+  }
+
+
+
+
+
+
+  .btn2:hover {
+  background-color: darkblue;
+  }
+.main-nav a {
+   margin: 0 1rem;
+color: var(--text);
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+
+
+  font-size: 1.1rem;
+
+}
+
+.main-nav a:hover {
+
+text-shadow: -1px 0 rgb(33, 95, 153), 0 1px rgb(33, 95, 153), 1px 0 rgb(33, 95, 153), 0 -1px rgb(33, 95, 153);
+
+}
+.body {
+background-image: url("https://www.transparenttextures.com/patterns/fancy-deboss.png");
+background-repeat: no-repeat;
+background-size: 300px 100px;
+background-position: center right;
+ }
